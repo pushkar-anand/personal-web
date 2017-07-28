@@ -42,9 +42,7 @@
  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
  <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
  <!-- Main Style -->
- <link rel="stylesheet" type="text/css" href="css/loadcss.php?css=w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css"
-
-
+ <link rel="stylesheet" type="text/css" href="css/loadcss.php?css=owl.transitions.css/w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css"
  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
 
 </head>
@@ -104,21 +102,21 @@
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
          <div class="large">
-           <img src="assets/img/work/img1.jpg" alt="">
+           <img src="media/proj1.png" alt="">
            <div class="overlay">
-             <a href="assets/img/work/img1.jpg" data-lightbox="img1"><i class="fa fa-search"></i></a>
+             <a href="media/proj1.png" data-lightbox="img1"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
-           <img src="assets/img/work/img2.jpg" alt="">
+           <img src="media/proj2.png" alt="">
            <div class="overlay">
-              <a href="assets/img/work/img2.jpg" data-lightbox="img2"><i class="fa fa-search"></i></a>
+              <a href="media/proj2.png" data-lightbox="img2"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
-           <img src="assets/img/work/img3.jpg" alt="">
+           <img src="media/proj3.png" alt="">
            <div class="overlay">
-              <a href="assets/img/work/img3.jpg" data-lightbox="img3"><i class="fa fa-search"></i></a>
+              <a href="media/proj3.png" data-lightbox="img3"><i class="fa fa-search"></i></a>
            </div>
          </div>
        </div>
@@ -146,117 +144,6 @@
  </section>
  <!-- Work Section End  -->
 
- <!-- Testimonial Section Start -->
- <section id="testimonial">
-   <div class="container">
-     <div class="row">
-       <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">What My<br>Client <br><span>Says</span></h1>
-       <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
-         <!-- Indicators -->
-         <ol class="carousel-indicators">
-           <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-           <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-           <li data-target="#testimonial-carousel" data-slide-to="2"></li>
-         </ol>
-         <div class="carousel-inner">
-           <div class="item active">
-             <blockquote>
-               <div class="commant">
-                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                   <div class="claint">
-                     <img src="assets/img/testimonial/img1.jpg" alt="">
-                   </div>
-                   <span class="quote"><i class="fa fa-quote-left"></i></span>
-                 </div>
-                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                   <div class="info">
-                     <p>TLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                     <h4>Anamoul Rouf</h4>
-                     <h5>CEO, CloudBee</h5>
-                   </div>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
-
-           <div class="item">
-             <blockquote>
-               <div class="commant">
-                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                   <div class="claint">
-                     <img src="assets/img/testimonial/img2.jpg" alt="">
-                   </div>
-                   <span class="quote"><i class="fa fa-quote-left"></i></span>
-                 </div>
-                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                   <div class="info">
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                     <h4>Imran Khan</h4>
-                     <h5>Founder, WPBean</h5>
-                   </div>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
-           <div class="item">
-             <blockquote>
-               <div class="commant">
-                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                   <div class="claint">
-                     <img src="assets/img/testimonial/img3.jpg" alt="">
-                   </div>
-                   <span class="quote"><i class="fa fa-quote-left"></i></span>
-                 </div>
-                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                   <div class="info">
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-                     <h4>Tanvir Ahmed</h4>
-                     <h5>Contributor, GrayGrids</h5>
-                   </div>
-                 </div>
-               </div>
-             </blockquote>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
- <!-- Testimonial Section End -->
-
- <!-- Clients Section Start -->
- <section id="clients">
-   <div class="container">
-     <div class="row">
-       <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Clients</span></h1>
-       <div id="clients-carousel" class="owl-carousel owl-theme">
-         <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-           <a href="#"><img src="assets/img/clients/img1.png" alt=""></a>
-         </div>
-         <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-           <a href="#"><img src="assets/img/clients/img2.png" alt=""></a>
-         </div>
-         <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-           <a href="#"><img src="assets/img/clients/img3.png" alt=""></a>
-         </div>
-         <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-           <a href="#"><img src="assets/img/clients/img4.png" alt=""></a>
-         </div>
-         <div class="item wow fadeIn animated">
-           <a href="#"><img src="assets/img/clients/img5.png" alt=""></a>
-         </div>
-         <div class="item wow fadeIn animated">
-           <a href="#"><img src="assets/img/clients/img6.png" alt=""></a>
-         </div>
-         <div class="item wow fadeIn animated">
-           <a href="#"><img src="assets/img/clients/img7.png" alt=""></a>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
- <!-- Clients Section End -->
-
  <!-- Skills Section Start -->
  <section id="skills">
    <div class="container">
@@ -266,7 +153,7 @@
        <div class="fact-block">
          <div class="circle one">
            <div class="count-info">
-             <h3><span class="counter">70%</span></h3>
+             <h3><span class="counter">80%</span></h3>
              <h4>PHP</h4>
            </div>
          </div>
@@ -388,18 +275,20 @@
          <div class="address">
            <h2>Contact Info</h2>
            <ul class="contact-info">
-             <li><i class="fa fa-mobile"></i> +88 019788XYZ</li>
+             <li><i class="fa fa-mobile"></i> +917053037360</li>
              <li><i class="fa fa-skype"></i> musa.xyz</li>
-             <li><i class="fa fa-envelope-o"></i> musaxyz@gmail.com</li>
+             <li><i class="fa fa-envelope-o"></i>anandpushkar088@gmail.com</li>
            </ul>
 
          <h2>Follow Me</h2>
            <ul class="social-icon">
-             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-             <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+             <li><a href="https://www.facebook.com/Pushkar.Anand.0" target="_blank"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="https://twitter.com/Pushkar_Anand_0" target="_blank"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="https://www.linkedin.com/in/anandpushkar088/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="https://plus.google.com/+PushkarAnand_me" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+             <li><a href="https://github.com/pushkar-anand" target="_blank"><i class="fa fa-github"></i></a></li>
+             <!--<li><a href="#"><i class="fa fa-instagram"/i></a></li>-->
+             <li><a href="https://stackoverflow.com/users/4257791/pushkar" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
            </ul>
          </div>
        </div>

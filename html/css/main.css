@@ -438,7 +438,7 @@ img {
 /* Clients Section End */
 /* Skills Section Start */
 #skills {
-  background: url(../img/backgrounds/skill-bg.jpg);
+  background: url(../img/skill-bg.jpg);
   background-size: cover;
   color: #ffffff;
   text-align: center;
@@ -527,7 +527,7 @@ img {
 /* Blog Section End */
 /* Feedback Section Start */
 #feedback {
-  background: url(../img/backgrounds/imgfooter.jpg);
+  background: url(../img/imgfooter.jpg);
   background-size: cover;
 }
 #feedback .section-title {
