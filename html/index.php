@@ -193,9 +193,119 @@
    </div>
  </section>
  <!-- Skills Section End -->
+ <!-- Work Experience Section Start -->
+   <section id="testimonial">
+     <div class="container">
+       <div class="row">
+         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Where<br>have <br><span>I worked</span></h1>
+         <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
+           <!-- Indicators -->
+           <ol class="carousel-indicators">
+             <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+             <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+             <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+           </ol>
+           <div class="carousel-inner">
+             <div class="item active">
+               <blockquote>
+                 <div class="commant">
+                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                     <div class="claint">
+                       <img src="assets/img/testimonial/img1.jpg" alt="">
+                     </div>
+                     <span class="quote"><i class="fa fa-quote-left"></i></span>
+                   </div>
+                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                     <div class="info">
+                       <p>TLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                       <h4>Anamoul Rouf</h4>
+                       <h5>CEO, CloudBee</h5>
+                     </div>
+                   </div>
+                 </div>
+               </blockquote>
+             </div>
+
+             <div class="item">
+               <blockquote>
+                 <div class="commant">
+                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                     <div class="claint">
+                       <img src="assets/img/testimonial/img2.jpg" alt="">
+                     </div>
+                     <span class="quote"><i class="fa fa-quote-left"></i></span>
+                   </div>
+                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                     <div class="info">
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                       <h4>Imran Khan</h4>
+                       <h5>Founder, WPBean</h5>
+                     </div>
+                   </div>
+                 </div>
+               </blockquote>
+             </div>
+             <div class="item">
+               <blockquote>
+                 <div class="commant">
+                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                     <div class="claint">
+                       <img src="assets/img/testimonial/img3.jpg" alt="">
+                     </div>
+                     <span class="quote"><i class="fa fa-quote-left"></i></span>
+                   </div>
+                   <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                     <div class="info">
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                       <h4>Tanvir Ahmed</h4>
+                       <h5>Contributor, GrayGrids</h5>
+                     </div>
+                   </div>
+                 </div>
+               </blockquote>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- Testimonial Section End -->
+   <!-- Clients Section Start -->
+   <section id="clients">
+     <div class="container">
+       <div class="row">
+         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Clients</span></h1>
+         <div id="clients-carousel" class="owl-carousel owl-theme">
+           <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+             <a href="#"><img src="assets/img/clients/img1.png" alt=""></a>
+           </div>
+           <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+             <a href="#"><img src="assets/img/clients/img2.png" alt=""></a>
+           </div>
+           <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+             <a href="#"><img src="assets/img/clients/img3.png" alt=""></a>
+           </div>
+           <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+             <a href="#"><img src="assets/img/clients/img4.png" alt=""></a>
+           </div>
+           <div class="item wow fadeIn animated">
+             <a href="#"><img src="assets/img/clients/img5.png" alt=""></a>
+           </div>
+           <div class="item wow fadeIn animated">
+             <a href="#"><img src="assets/img/clients/img6.png" alt=""></a>
+           </div>
+           <div class="item wow fadeIn animated">
+             <a href="#"><img src="assets/img/clients/img7.png" alt=""></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- Clients Section End -->
+
 
  <!-- Blog Section Start -->
- <section id="blog">
+ <!--<section id="blog">
    <div class="container">
      <div class="row">
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Homey<br><span>Blog</span></h1>
@@ -242,7 +352,7 @@
        </div>
      </div>
    </div>
- </section>
+ </section>-->
  <!-- Blog Section Start -->
 
  <!-- Feedback Section Start -->
@@ -266,7 +376,7 @@
            </div>
            <div class="input-group">
              <span class="input-group-addon"><i class="fa fa-comments"></i></span>
-             <textarea name="message" class="form-control large" placeholder="Massage"></textarea>
+             <textarea name="message" class="form-control large" placeholder="Message"></textarea>
            </div>
            <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
          </form>
@@ -276,7 +386,6 @@
            <h2>Contact Info</h2>
            <ul class="contact-info">
              <li><i class="fa fa-mobile"></i> +917053037360</li>
-             <li><i class="fa fa-skype"></i> musa.xyz</li>
              <li><i class="fa fa-envelope-o"></i>anandpushkar088@gmail.com</li>
            </ul>
 
@@ -287,8 +396,8 @@
              <li><a href="https://www.linkedin.com/in/anandpushkar088/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
              <li><a href="https://plus.google.com/+PushkarAnand_me" target="_blank"><i class="fa fa-google-plus"></i></a></li>
              <li><a href="https://github.com/pushkar-anand" target="_blank"><i class="fa fa-github"></i></a></li>
-             <!--<li><a href="#"><i class="fa fa-instagram"/i></a></li>-->
              <li><a href="https://stackoverflow.com/users/4257791/pushkar" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+             <li><a href="https://www.instagram.com/pushkar.anand/" target="_blank"><i class="fa fa-instagram"></i></a></li>
            </ul>
          </div>
        </div>
@@ -303,7 +412,7 @@
      <div class="row">
        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
          <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
-           <p>Copyright &copy; 2014 GrayGrids | All rights reserved.</p>
+           <p>Copyright &copy; <?php echo date('Y');?> Pushkar Anand | All rights reserved.</p>
          </div>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
