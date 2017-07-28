@@ -17,6 +17,7 @@ if(isset($_GET['css']))
 	{
 		if(!file_exists($cssFile))
 		{
+      error_log($cssFile);
 			header("HTTP/1.0 404 Not Found");
 			exit();
 		}
