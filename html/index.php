@@ -256,29 +256,26 @@
    <section id="clients">
      <div class="container">
        <div class="row">
-         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Clients</span></h1>
+         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br><span>Education</span></h1>
          <div id="clients-carousel" class="owl-carousel owl-theme">
-           <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-             <a href="#"><img src="assets/img/clients/img1.png" alt=""></a>
+             <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+               <h2>VVCE, Mysore</h2>
+               <h4>2017-present</h4>
+               <h3>BE.: CSE</h3>
            </div>
            <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-             <a href="#"><img src="assets/img/clients/img2.png" alt=""></a>
+             <h2>Paramount International School,New Delhi</h2>
+             <h4>2014-2016</h4>
+             <h3>Class 12th(PCM) </h3>
+             <h3>%: 80.6</h3>
            </div>
            <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-             <a href="#"><img src="assets/img/clients/img3.png" alt=""></a>
+             <h2>Creane Memorial School,Gaya</h2>
+             <h4>2004-2014</h4>
+             <h3>Class 10th </h3>
+             <h3>CGPA: 8.6</h3>
            </div>
-           <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-             <a href="#"><img src="assets/img/clients/img4.png" alt=""></a>
-           </div>
-           <div class="item wow fadeIn animated">
-             <a href="#"><img src="assets/img/clients/img5.png" alt=""></a>
-           </div>
-           <div class="item wow fadeIn animated">
-             <a href="#"><img src="assets/img/clients/img6.png" alt=""></a>
-           </div>
-           <div class="item wow fadeIn animated">
-             <a href="#"><img src="assets/img/clients/img7.png" alt=""></a>
-           </div>
+
          </div>
        </div>
      </div>
