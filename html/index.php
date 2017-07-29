@@ -176,12 +176,11 @@
  </section>
  <!-- Skills Section End -->
  <!-- Work Experience Section Start -->
-   <section id="testimonial">
+  <!-- <section id="testimonial">
      <div class="container">
        <div class="row">
          <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Where<br>have <br><span>I worked</span></h1>
          <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
-           <!-- Indicators -->
            <ol class="carousel-indicators">
              <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
              <li data-target="#testimonial-carousel" data-slide-to="1"></li>
@@ -250,7 +249,7 @@
          </div>
        </div>
      </div>
-   </section>
+   </section>-->
    <!-- Testimonial Section End -->
    <!-- Clients Section Start -->
    <section id="clients">
