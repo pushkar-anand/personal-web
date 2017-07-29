@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <title>Pushkar Anand - Personal Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="" />
+  <meta name="description" content="A programmer trying to create a impression on the world. Currently pursuing his engineering in computer science he wishes to  " />
   <meta name="author" content="Pushkar Anand">
   <meta property="og:url" content="https://pushkaranand.me"/>
-  <meta property="og:site_name" content="Pushkar Anand"/>
-  <meta property="og:title" content="Pushkar Anand"/>
+  <meta property="og:site_name" content="Pushkar Anand - Personal Portfolio"/>
+  <meta property="og:title" content="Pushkar Anand - Personal Portfolio"/>
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="https://pushkaranand.me/media/me.jpg"/>
   <meta name="keywords" content="Pushkar Anand, Pushkar, Anand" />
@@ -33,7 +33,7 @@
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-TileImage" content="media/favicon-144.png">
   <meta name="msapplication-config" content="media/browserconfig.xml">
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
               <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
               <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -136,7 +136,7 @@
          </div>
          <div class="browse-box">
            <div class="more">
-             <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+             <a href="projects"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
            </div>
          </div>
        </div>
