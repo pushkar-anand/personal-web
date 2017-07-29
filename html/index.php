@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Pushkar Anand - Personal Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A programmer trying to create a impression on the world. Currently pursuing his engineering in computer science he wishes to  " />
+  <meta name="description" content="A programmer trying to create a impression on the world. Currently pursuing his engineering in computer science he wishes to dosomething exciting in his life " />
   <meta name="author" content="Pushkar Anand">
   <meta property="og:url" content="https://pushkaranand.me"/>
   <meta property="og:site_name" content="Pushkar Anand - Personal Portfolio"/>
@@ -43,8 +43,6 @@
  <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
  <!-- Main Style -->
  <link rel="stylesheet" type="text/css" href="css/loadcss.php?css=owl.transitions.css/w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css"
- <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
-
 </head>
 <body>
   <?php include_once("analyticstracking.php") ?>
@@ -378,7 +376,7 @@
            <ul class="social-icon">
              <li><a href="https://www.facebook.com/Pushkar.Anand.0" target="_blank"><i class="fa fa-facebook"></i></a></li>
              <li><a href="https://twitter.com/Pushkar_Anand_0" target="_blank"><i class="fa fa-twitter"></i></a></li>
-             <li><a href="https://www.linkedin.com/in/anandpushkar088/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="https://www.linkedin.com/in/anandpushkar088" target="_blank"><i class="fa fa-linkedin"></i></a></li>
              <li><a href="https://plus.google.com/+PushkarAnand_me" target="_blank"><i class="fa fa-google-plus"></i></a></li>
              <li><a href="https://github.com/pushkar-anand" target="_blank"><i class="fa fa-github"></i></a></li>
              <li><a href="https://stackoverflow.com/users/4257791/pushkar" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
