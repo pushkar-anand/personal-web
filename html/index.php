@@ -83,6 +83,7 @@
          <div class="banner text-center">
            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Pushkar Anand</h1>
            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">The geek who loves to code<i class="em em-heart "></i></h2>
+           <h4 class="wow fadeInDown animated" data-wow-delay=".4s"></h4>
            <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
            <a href="#works" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
            <div class="scroll">
@@ -150,44 +151,28 @@
      <div class="row">
      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-       <div class="fact-block">
-         <div class="circle one">
-           <div class="count-info">
-             <h3><span class="counter">80%</span></h3>
-             <h4>PHP</h4>
-           </div>
-         </div>
-       </div>
+       <h3>Javascript</h3>
+       <h3>jQuery</h3>
+       <h3>PHP</h3>
+       <h3>CodeIgniter</h3>
+       <h3>MySQL</h3>
+       <h3>PostgreSQL</h3>
+       <h3></h3>
      </div>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-       <div class="fact-block">
-         <div class="circle two">
-           <div class="count-info">
-             <h3><span class="counter">80%</span></h3>
-             <h4>WordPress</h4>
-           </div>
-         </div>
-       </div>
+          <h3>Linux CLI</h3>
+          <h3>AWS EC2</h3>
+          <h3>Heroku</h3>
+          <h3>Azure VMs</h3>
+          <h3>GIT</h3>
      </div>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-       <div class="fact-block">
-         <div class="circle three">
-           <div class="count-info">
-             <h3><span class="counter">50%</span></h3>
-             <h4>CSS</h4>
-           </div>
-         </div>
-       </div>
+
+             <h3>Android Development</h3>
      </div>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-       <div class="fact-block">
-         <div class="circle four">
-           <div class="count-info">
-             <h3><span class="counter">90%</span></h3>
-             <h4>HTML</h4>
-           </div>
-         </div>
-       </div>
+       <h3>C++</h3>
+       <h3>Java</h3>
      </div>
      </div>
    </div>
