@@ -165,8 +165,7 @@
           <h3>GIT</h3>
      </div>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-
-             <h3>Android Development</h3>
+          <h3>Android Development</h3>
      </div>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
        <h3>C++</h3>
