@@ -121,15 +121,15 @@
        </div>
        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
          <div class="grid-box large">
-           <img src="assets/img/work/img4.jpg" alt="">
+           <img src="media/proj4.jpg" alt="">
            <div class="overlay">
-              <a href="assets/img/work/img4.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+              <a href="media/proj4.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
-           <img src="assets/img/work/img5.jpg" alt="">
+           <img src="media/proj5.jpg" alt="">
            <div class="overlay">
-              <a href="assets/img/work/img5.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
+              <a href="media/proj5.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="browse-box">
