@@ -103,7 +103,7 @@
          <div class="large">
            <img src="media/proj1.png" alt="">
            <div class="overlay">
-             <a href="media/proj1.png" data-lightbox="img1"><i class="fa fa-search"></i></a>
+             <a href="media/proj1-details.png" data-lightbox="img1"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
@@ -256,26 +256,7 @@
      <div class="container">
        <div class="row">
          <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br><span>Education</span></h1>
-         <div id="clients-carousel" class="owl-carousel owl-theme">
-             <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-               <h2>VVCE, Mysore</h2>
-               <h4>2017-present</h4>
-               <h3>BE.: CSE</h3>
-           </div>
-           <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-             <h2>Paramount International School,New Delhi</h2>
-             <h4>2014-2016</h4>
-             <h3>Class 12th(PCM) </h3>
-             <h3>%: 80.6</h3>
-           </div>
-           <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-             <h2>Creane Memorial School,Gaya</h2>
-             <h4>2004-2014</h4>
-             <h3>Class 10th </h3>
-             <h3>CGPA: 8.6</h3>
-           </div>
-
-         </div>
+         <
        </div>
      </div>
    </section>
