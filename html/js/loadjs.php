@@ -1,5 +1,6 @@
 <?php
-require_once '../vendor/autoload.php';
+require_once '../../vendor/autoload.php';
+use MatthiasMullie\Minify;
 function test_input($data)
 {
 	$data = trim($data);
@@ -10,7 +11,6 @@ function test_input($data)
 }
 if( isset($_GET['js']))
 {
-	use MatthiasMullie\Minify;
 	$jsF = test_input($_GET['js']);
 	$jsFiles = explode('/', $jsF);
 

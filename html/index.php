@@ -410,24 +410,11 @@
  <script src="js/jquery.min.js"></script>
  <!-- Bootstrap JS -->
  <script src="js/bootstrap.min.js"></script>
- <!-- WOW JS plugin for animation -->
- <script src="js/wow.js"></script>
- <!-- All JS plugin Triggers -->
- <script src="js/main.js"></script>
- <!-- Smooth scroll -->
- <script src="js/smooth-scroll.js"></script>
- <!--  -->
- <script src="js/jasny-bootstrap.min.js"></script>
- <!-- Counterup -->
- <script src="js/jquery.counterup.min.js"></script>
- <!-- waypoints -->
- <script src="js/waypoints.min.js"></script>
- <!-- circle progress -->
- <script src="js/circle-progress.js"></script>
- <!-- owl carousel -->
- <script src="js/owl.carousel.js"></script>
- <!-- lightbox -->
- <script src="js/lightbox.min.js"></script>
+
+ <script src="js/loadjs.php?js=wow.js/main.js/smooth-scroll.js/jasny-bootstrap.min.js/jquery.counterup.min.js/waypoints.min.js" ></script>
+<script src ="js/lightbox.min.js" ></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/circle-progress.js"></script>
 
 </body>
 </html>
