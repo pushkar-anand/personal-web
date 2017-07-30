@@ -39,10 +39,11 @@
               <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
   <!-- Bootstrap -->
- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
- <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+ <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous" />
  <!-- Main Style -->
- <link rel="stylesheet" type="text/css" href="css/loadcss.php?css=owl.transitions.css/w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css"
+ <link rel="stylesheet" type="text/css" href="css/loadcss.php?css=owl.transitions.css/w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css" />
 </head>
 <body>
   <?php include_once("analyticstracking.php") ?>
@@ -103,7 +104,7 @@
          <div class="large">
            <img src="media/proj1.png" alt="">
            <div class="overlay">
-             <a href="media/proj1-details.png" data-lightbox="img1"><i class="fa fa-search"></i></a>
+             <a data-fancybox data-type="iframe" data-src="https://pushkaranand.me" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
@@ -142,7 +143,6 @@
    </div>
  </section>
  <!-- Work Section End  -->
-
  <!-- Skills Section Start -->
  <section id="skills">
    <div class="container">
@@ -256,7 +256,22 @@
      <div class="container">
        <div class="row">
          <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br><span>Education</span></h1>
-         <
+         <div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay=".4s">
+      <h3>VVCE, Mysore</h3>
+      <p></p>
+    </div>
+    <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay=".4s">
+      <h3>Paramount International School,New Delhi</h3>
+      <p></p>
+    </div>
+    <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay=".4s">
+      <h3>Creane Memorial School , Gaya</h3>
+      <p></p>
+    </div>
+  </div>
+</div>
        </div>
      </div>
    </section>
@@ -391,12 +406,20 @@
  <script src="js/jquery.min.js"></script>
  <!-- Bootstrap JS -->
  <script src="js/bootstrap.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js" integrity="sha256-wzoq0P7w2qLzRcJsF319y6G9Oilk3nU5CZ8tnY9TjFI=" crossorigin="anonymous"></script>
  <script src="js/loadjs.php?js=wow.js/main.js/smooth-scroll.js/jasny-bootstrap.min.js/jquery.counterup.min.js/waypoints.min.js" ></script>
-<script src ="js/lightbox.min.js" ></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/circle-progress.js"></script>
 
+<!--<script src="js/owl.carousel.min.js"></script>
+<script src="js/circle-progress.js"></script>-->
+<script>
+$(document).keyup(function(e) {
+     if (e.keyCode == 27)
+     { // escape key maps to keycode `27`
+        // <DO YOUR WORK HERE>
+        parent.jQuery.fancybox.getInstance().close();
+    }
+});
+</script>
 </body>
 </html>
 </body>
