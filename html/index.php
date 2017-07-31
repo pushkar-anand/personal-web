@@ -104,19 +104,19 @@
          <div class="large">
            <img src="media/proj1.png" alt="">
            <div class="overlay">
-             <a data-fancybox data-type="iframe" data-src="https://pushkaranand.me" href="javascript:;"><i class="fa fa-search"></i></a>
+             <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj2.png" alt="">
            <div class="overlay">
-              <a href="media/proj2.png" data-lightbox="img2"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;" ><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj3.png" alt="">
            <div class="overlay">
-              <a href="media/proj3.png" data-lightbox="img3"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
        </div>
@@ -124,18 +124,18 @@
          <div class="grid-box large">
            <img src="media/proj4.jpg" alt="">
            <div class="overlay">
-              <a href="media/proj4.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj5.jpg" alt="">
            <div class="overlay">
-              <a href="media/proj5.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="browse-box">
            <div class="more">
-             <a href="projects"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+             <a href="projects.php"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
            </div>
          </div>
        </div>
