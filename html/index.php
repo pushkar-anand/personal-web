@@ -110,13 +110,13 @@
          <div class="grid-box">
            <img src="media/proj2.png" alt="">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;" ><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=wt" href="javascript:;" ><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj3.png" alt="">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
        </div>
@@ -124,13 +124,13 @@
          <div class="grid-box large">
            <img src="media/proj4.jpg" alt="">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj5.jpg" alt="">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project.php?list=" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="browse-box">
