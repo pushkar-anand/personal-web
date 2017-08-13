@@ -1,7 +1,17 @@
 {
   "Projects":
-  {
-    "Name":"Sofdule",
-    "INFO":"Proj Info"
-  }
+    [
+      {
+        "name": "Sofdule",
+         "info":"Doe"
+      },
+      {
+        "name": "Make Me Smile",
+        "info": ""
+      },
+      {
+        "name": "WishThem",
+        "info": ""
+      }
+    ]
 }
