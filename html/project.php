@@ -5,7 +5,8 @@ if(isset($_GET['list']))
   $projectData = file_get_contents($jsonFile);
   $jsonArr = json_decode($projectData, true);
 
-  foreach ($variable as $key => $value) {
+  foreach ($variable as $key => $value)
+  {
     # code...
   }
 
@@ -16,3 +17,7 @@ else
 
 }
 ?>
+<!DOCTYPE HTML>
+<html>
+
+</html>
