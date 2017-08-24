@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Pushkar Anand - Personal Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A programmer trying to create a impression on the world. Currently pursuing his engineering in computer science he wishes to dosomething exciting in his life " />
+  <meta name="description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life " />
   <meta name="author" content="Pushkar Anand">
   <meta property="og:url" content="https://pushkaranand.me"/>
   <meta property="og:site_name" content="Pushkar Anand - Personal Portfolio"/>

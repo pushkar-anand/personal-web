@@ -3,3 +3,27 @@ RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+)$ $1.php [L]
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript image/png image/jpg image/jpeg image/svg+xml
+
+
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On
+# Default directive
+ExpiresDefault "access plus 60 days"
+# My favicon
+ExpiresByType image/x-icon "access plus 60 days"
+# Images
+ExpiresByType image/gif "access plus 60 day"
+ExpiresByType image/png "access plus 60 day"
+ExpiresByType image/jpg "access plus 60 day"
+ExpiresByType image/jpeg "access plus 60 day"
+# CSS
+ExpiresByType text/css "access plus 60 day"
+# Javascript
+ExpiresByType application/javascript "access plus 60 day"
+ExpiresByType text/javascript "access plus 60 day"
+#html
+ExpiresByType text/html "access plus 0 minute"
+</IfModule>
