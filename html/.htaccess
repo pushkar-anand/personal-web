@@ -3,6 +3,8 @@ RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+)$ $1.php [L]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript image/png image/jpg image/jpeg image/svg+xml
 
