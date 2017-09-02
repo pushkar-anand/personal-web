@@ -175,7 +175,7 @@
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
        <h3>C/C++</h3>
        <h3>Java</h3>
-       <h3></h3>
+       <h3>Python</h3>
      </div>
      </div>
    </div>
