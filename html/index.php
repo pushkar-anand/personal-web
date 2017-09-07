@@ -71,7 +71,7 @@
              <li><a href="#works">Portfolio</a></li>
              <!--<li><a href="#clients">Clients</a></li>-->
              <li><a href="blog/">Blog</a></li>
-             <li><a href="#feedback">Hire/Contact Me</a></li>
+             <li><a href="#feedback">Contact Me</a></li>
            </ul>
          </div>
          <!-- navigation End -->
@@ -83,7 +83,7 @@
            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Pushkar Anand</h1>
            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">The geek who loves to code<i class="em em-heart "></i></h2>
            <h4 class="wow fadeInDown animated" data-wow-delay=".4s"></h4>
-           <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
+           <a href="#feedback" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Contact Me</a>
            <a href="#works" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
            <div class="scroll">
              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
@@ -341,7 +341,7 @@
      <div class="row">
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s"><span>Hire</span><br>or Contact <br> Me</h1>
        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
-         <form action="" name="contact">
+         <form action="contact" name="contact" type="post">
            <div class="input-group">
              <span class="input-group-addon"><i class="fa fa-user"></i></span>
              <input type="text" name="name" class="form-control" placeholder="Your name">
