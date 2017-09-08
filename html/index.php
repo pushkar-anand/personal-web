@@ -348,7 +348,7 @@
            </div>
            <div class="input-group">
              <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
-             <input type="email" name="email" class="form-control" placeholder="Email">
+             <input type="email" name="email" class="form-control" placeholder=" Your Email">
            </div>
            <div class="input-group">
              <span class="input-group-addon"><i class="fa fa-fire"></i></span>
@@ -358,7 +358,7 @@
              <span class="input-group-addon"><i class="fa fa-comments"></i></span>
              <textarea name="message" class="form-control large" placeholder="Message"></textarea>
            </div>
-           <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
+           <button type="submit" class="btn btn-green" name="send"><i class="fa fa-envelope-o"></i>Send</button>
          </form>
        </div>
        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.4s">
