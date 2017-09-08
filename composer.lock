@@ -4,9 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0d9bf98cd8f834f0a5f41779a986aba",
-    "content-hash": "e7806260d775937d439159cde5165225",
+    "hash": "17ce4974dd2bdf1a47cfe78f554f8c32",
+    "content-hash": "b43fb726e6db8ec55368a8b13e0bbfc6",
     "packages": [
+        {
+            "name": "mailin-api/mailin-api-php",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mailin-api/mailin-api-php.git",
+                "reference": "b437808566f46979309f01b796c31b7b6bacfb42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mailin-api/mailin-api-php/zipball/b437808566f46979309f01b796c31b7b6bacfb42",
+                "reference": "b437808566f46979309f01b796c31b7b6bacfb42",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sendinblue": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SendinBlue",
+                    "homepage": "https://www.sendinblue.com/"
+                }
+            ],
+            "description": "Official SendinBlue provided API V2 wrapper",
+            "homepage": "https://github.com/mailin-api/mailin-api-php",
+            "time": "2017-04-19 13:00:21"
+        },
         {
             "name": "matthiasmullie/minify",
             "version": "1.3.46",

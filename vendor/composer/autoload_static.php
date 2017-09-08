@@ -25,11 +25,22 @@ class ComposerStaticInit673c437e0aa7411743a8697eec62c4ad
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Sendinblue' => 
+            array (
+                0 => __DIR__ . '/..' . '/mailin-api/mailin-api-php/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit673c437e0aa7411743a8697eec62c4ad::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit673c437e0aa7411743a8697eec62c4ad::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit673c437e0aa7411743a8697eec62c4ad::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
