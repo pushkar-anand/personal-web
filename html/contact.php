@@ -11,8 +11,8 @@ function test_input($data)
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
 {
   //app-smtp.sendinblue.com
-  $api_key = '09ULF8cCVESNqZmv';
-  
+  global $api_key;
+
   $sender_name = test_input($_POST['name']);
   $sender_email = test_input($_POST['email']);
   $subject = test_input($_POST['subject']);
