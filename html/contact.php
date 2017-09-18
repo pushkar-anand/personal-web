@@ -1,4 +1,5 @@
 <?php
+require_once '../vendor/autoload.php';
 use Sendinblue\Mailin;
 function test_input($data)
 {
