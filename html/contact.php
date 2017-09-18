@@ -11,7 +11,7 @@ function test_input($data)
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
 {
   //app-smtp.sendinblue.com
-  global $api_key;
+  $api_key = 'XXXXX';
 
   $sender_name = test_input($_POST['name']);
   $sender_email = test_input($_POST['email']);
@@ -24,5 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
     "subject" => $subject,
     "html" => $body
 );
+<h1 align="center">Your mail has been sent</h1>
+<h2 align="center"><a href="/" title="Go back">Go Back</h2>
+}
+else
+{
+  header('HTTP/1.1 400 Bad Request', true, 400);
 }
 ?>
