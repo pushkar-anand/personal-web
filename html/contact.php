@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
   var_dump($arr);
   /*if(arr["code"]=="success")
   {
-    $_SESSION['mail-sent'] = "success";
+    $_SESSION['mail-sent'] = "ssuccess";
     sendResponseMail($sender_name,$sender_email,$api_key);
     $response = "Success";
   }
