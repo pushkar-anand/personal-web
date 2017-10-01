@@ -461,7 +461,13 @@ if(isset($_SESSION['mail-sent']))
 		$alertMsg = "Mail could'nt be sent. Please write directly to anandpushkar088@gmail.com";
 	}
 	echo <<<SCRIPT
-	<script>alert($alertMsg)</script>
+	<script>
+	$(document).ready(function()
+	{
+		console.log($_SESSION['mail-sent']);
+		alert("$alertMsg");
+	});
+	</script>
 SCRIPT;
 }
 
