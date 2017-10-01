@@ -452,7 +452,8 @@ $(document).keyup(function(e) {
 <?php
 if(isset($_SESSION['mail-sent']))
 {
-	if( $_SESSION['mail-sent'] == "success")
+	$d = $_SESSION['mail-sent'];
+	if( $d == "success")
 	{
 		$alertMsg = "Mail was sent successfully";
 	}
@@ -464,7 +465,7 @@ if(isset($_SESSION['mail-sent']))
 	<script>
 	$(document).ready(function()
 	{
-		console.log($_SESSION['mail-sent']);
+		console.log($d);
 		alert("$alertMsg");
 	});
 	</script>
