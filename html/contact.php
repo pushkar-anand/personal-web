@@ -1,5 +1,7 @@
 <?php
 require_once '../vendor/autoload.php';
+session_start();
+date_default_timezone_set('Asia/Kolkata');
 use Sendinblue\Mailin;
 function test_input($data)
 {
@@ -8,6 +10,17 @@ function test_input($data)
   	$data = htmlspecialchars($data);
   	$data = strip_tags($data);
   	return $data;
+}
+function sendResponseMail($sender_name,$sender_email,$api_key)
+{
+  $mailin = new Mailin("https://api.sendinblue.com/v2.0",$api_key);
+  $body = "I received your mail. Thanks for contacting.</br> Will get back to you soon</br> <p>Regards</p><p>Pushkar Anand</p>".
+  $data = array( "to" => array($sender_email=>$sender_name),
+    "from" => array("no-reply@pushkaranand.me", "Pushkar Anand"),
+    "subject" => "Thank you for contacting.",
+    "html" => $body
+);
+  $mailin->send_email($data);
 }
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
 {
@@ -25,12 +38,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
     "subject" => $subject,
     "html" => $body
 );
-  $mailin->send_email($data);
-echo <<<HTML
-<h1 align="center">Your mail has been sent</h1>
-<h2 align="center"><a href="/" title="Go back">Go Back</h2>
-HTML;
-
+  $jsonData = $mailin->send_email($data);
+  $arr = json_decode($jsonData,true);
+  if(arr["code"]=="success")
+  {
+    $_SESSION['mail-sent'] = "success";
+    sendResponseMail($sender_name,$sender_email,$api_key);
+    $response = "Success";
+  }
+  else
+  {
+    $_SESSION['mail-sent'] = "failure";
+    $response = "failure";
+  }
+  $logData = date("Y-m-d h:i:sa") + " " + $sender_name+ "<" +$sender_email + "> " + $response + ": " + $arr["message"] + " " + $subject + " " + $body + " \n" ;
+  $myfile = fopen("mail.log", "a") or die("Unable to open file!");
+  fwrite($logData);
 }
 else
 {

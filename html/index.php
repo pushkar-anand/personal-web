@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -446,6 +449,23 @@ $(document).keyup(function(e) {
     }
 });
 </script>
+<?php
+if(isset($_SESSION['mail-sent']))
+{
+	if( $_SESSION['mail-sent'] == "success")
+	{
+		$alertMsg = "Mail was sent successfully";
+	}
+	else
+	{
+		$alertMsg = "Mail could'nt be sent. Please write directly to anandpushkar088@gmail.com";
+	}
+	echo <<<SCRIPT
+	<script>alert($alertMsg)</script>
+SCRIPT;
+}
+
+?>
 </body>
 </html>
 </body>
