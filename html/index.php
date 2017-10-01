@@ -285,7 +285,7 @@
 
 
  <!-- Blog Section Start -->
- <section id="blog">
+ <!--<section id="blog">
    <div class="container">
      <div class="row">
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>
@@ -332,7 +332,7 @@
        </div>
      </div>
    </div>
- </section>
+ </section>-->
  <!-- Blog Section End -->
 
  <!-- Feedback Section Start -->
