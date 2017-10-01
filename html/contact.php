@@ -42,10 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
     "html" => $body
 );
   $response = $mailin->send_email($data);
-  print_r($response);
-  $arr = json_decode($response,true);
-  var_dump($arr);
-  /*if(arr["code"]=="success")
+  if($response["code"]=="success")
   {
     $_SESSION['mail-sent'] = "ssuccess";
     sendResponseMail($sender_name,$sender_email,$api_key);
@@ -58,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
   }
   $logData = date("Y-m-d h:i:sa") + " " + $sender_name+ "<" +$sender_email + "> " + $response + ": " + $arr["message"] + " " + $subject + " " + $body + " \n" ;
   $myfile = fopen("mail.log", "a") or die("Unable to open file!");
-  fwrite($logData);*/
+  fwrite($logData);
   //header('Location: /');
 }
 else
