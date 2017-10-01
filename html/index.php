@@ -437,7 +437,31 @@ session_start();
  <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js" integrity="sha256-wzoq0P7w2qLzRcJsF319y6G9Oilk3nU5CZ8tnY9TjFI=" crossorigin="anonymous"></script>
  <script src="js/loadjs.php?js=wow.js/main.js/smooth-scroll.js/jasny-bootstrap.min.js/jquery.counterup.min.js/waypoints.min.js" ></script>
-
+ <?php
+ if(isset($_SESSION['mail-sent']))
+ {
+ 	$d = $_SESSION['mail-sent'];
+ 	if( $d == "success")
+ 	{
+ 		$alertMsg = "Mail was sent successfully";
+ 	}
+ 	else
+ 	{
+ 		$alertMsg = "Mail could'nt be sent. Please write directly to anandpushkar088@gmail.com";
+ 	}
+ 	echo <<<SCRIPT
+ 	<script>
+ 	document.addEventListener("DOMContentLoaded", function(event)
+ 	{
+ 		console.log($d);
+ 		alert("$alertMsg");
+  });
+ 	</script>
+SCRIPT;
+ }
+ session_regenerate_id();
+ session_unset('mail-sent');
+ ?>
 <!--<script src="js/owl.carousel.min.js"></script>
 <script src="js/circle-progress.js"></script>-->
 <script>
@@ -449,31 +473,6 @@ $(document).keyup(function(e) {
     }
 });
 </script>
-<?php
-if(isset($_SESSION['mail-sent']))
-{
-	$d = $_SESSION['mail-sent'];
-	if( $d == "success")
-	{
-		$alertMsg = "Mail was sent successfully";
-	}
-	else
-	{
-		$alertMsg = "Mail could'nt be sent. Please write directly to anandpushkar088@gmail.com";
-	}
-	echo <<<SCRIPT
-	<script>
-	$(document).ready(function()
-	{
-		console.log($d);
-		alert("$alertMsg");
-	});
-	</script>
-SCRIPT;
-}
-session_regenerate_id();
-session_unset('mail-sent');
-?>
 </body>
 </html>
 </body>
