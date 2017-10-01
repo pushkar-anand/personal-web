@@ -42,10 +42,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
     "html" => $body
 );
   $response = $mailin->send_email($data);
-  var_dump($response);
-  /*$arr = json_decode($jsonData,true);
+  //var_dump($response);
+  $arr = json_decode($response,true);
   var_dump($arr);
-  if(arr["code"]=="success")
+  /*if(arr["code"]=="success")
   {
     $_SESSION['mail-sent'] = "success";
     sendResponseMail($sender_name,$sender_email,$api_key);
