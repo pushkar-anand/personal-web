@@ -85,7 +85,7 @@ session_start();
  	{
  		console.log("RESPONSE: $d");
  		window.alert("$alertMsg");
-  });
+  }
  	</script>
 SCRIPT;
  }
