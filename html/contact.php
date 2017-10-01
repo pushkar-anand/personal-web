@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
   $response = $mailin->send_email($data);
   if($response["code"]=="success")
   {
-    $_SESSION['mail-sent'] = "ssuccess";
+    $_SESSION['mail-sent'] = "success";
     sendResponseMail($sender_name,$sender_email,$api_key);
     $response = "Success";
   }
