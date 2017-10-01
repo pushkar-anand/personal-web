@@ -54,6 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
   $logData = date("Y-m-d h:i:sa") + " " + $sender_name+ "<" +$sender_email + "> " + $response + ": " + $arr["message"] + " " + $subject + " " + $body + " \n" ;
   $myfile = fopen("mail.log", "a") or die("Unable to open file!");
   fwrite($logData);
+  header('Location: /');
 }
 else
 {
