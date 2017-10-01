@@ -83,8 +83,8 @@ session_start();
  	<script>
  	window.onload = function(e)
  	{
- 		console.log($d);
- 		alert("$alertMsg");
+ 		console.log("RESPONSE: $d");
+ 		window.alert("$alertMsg");
   });
  	</script>
 SCRIPT;
