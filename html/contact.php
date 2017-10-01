@@ -41,7 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
     "subject" => $subject,
     "html" => $body
 );
-  var_dump($mailin->send_email($data));
+  $response = $mailin->send_email($data);
+  var_dump($response);
   /*$arr = json_decode($jsonData,true);
   var_dump($arr);
   if(arr["code"]=="success")
