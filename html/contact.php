@@ -11,6 +11,9 @@ function test_input($data)
   	$data = strip_tags($data);
   	return $data;
 }
+?>
+<?php include_once("analyticstracking.php") ?>
+<?php
 function sendResponseMail($sender_name,$sender_email,$api_key)
 {
   $mailin = new Mailin("https://api.sendinblue.com/v2.0",$api_key);

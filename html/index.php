@@ -471,7 +471,8 @@ if(isset($_SESSION['mail-sent']))
 	</script>
 SCRIPT;
 }
-
+session_regenerate_id();
+session_unset('mail-sent');
 ?>
 </body>
 </html>
