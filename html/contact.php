@@ -25,8 +25,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send']) )
     "subject" => $subject,
     "html" => $body
 );
+echo <<<HTML
 <h1 align="center">Your mail has been sent</h1>
 <h2 align="center"><a href="/" title="Go back">Go Back</h2>
+HTML;
+
 }
 else
 {
