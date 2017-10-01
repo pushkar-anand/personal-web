@@ -8,6 +8,7 @@
 	<meta name="author" content="Pushkar Anand">
 	<meta name="keywords" content="Pushkar Anand, Pushkar, Anand" />
   	<meta http-equiv="x-ua-compatible" content="ie=edge">
+  	<meta name="theme-color" content="#1881f2">
 	<!-- Search Engine -->
 	<meta name="description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life ">
 	<meta name="image" content="https://pushkaranand.me/media/me.jpg">
@@ -28,7 +29,7 @@
 	<meta property="og:image" content="https://pushkaranand.me/media/me.jpg">
 	<meta property="og:url" content="https://pushkaranand.me/">
 	<meta property="og:site_name" content="Pushkar Anand - Personal Portfolio">
-	<meta property="og:locale" content="en_IN">
+	<meta property="og:locale" content="en_US">
 	<meta property="fb:admins" content="100002803841254">
 	<meta property="og:type" content="website">
 
@@ -390,13 +391,13 @@
 
          <h2>Follow Me</h2>
            <ul class="social-icon">
-             <li><a href="https://www.facebook.com/Pushkar.Anand.0" target="_blank"><i class="fa fa-facebook"></i></a></li>
-             <li><a href="https://twitter.com/Pushkar_Anand_0" target="_blank"><i class="fa fa-twitter"></i></a></li>
-             <li><a href="https://www.linkedin.com/in/anandpushkar088" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-             <li><a href="https://plus.google.com/+PushkarAnand_me" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-             <li><a href="https://github.com/pushkar-anand" target="_blank"><i class="fa fa-github"></i></a></li>
-             <li><a href="https://stackoverflow.com/users/4257791/pushkar" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-             <li><a href="https://www.instagram.com/pushkar.anand/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+             <li><a href="https://www.facebook.com/Pushkar.Anand.0" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="https://twitter.com/Pushkar_Anand_0" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="https://www.linkedin.com/in/anandpushkar088" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="https://plus.google.com/+PushkarAnand_me" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i></a></li>
+             <li><a href="https://github.com/pushkar-anand" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li>
+             <li><a href="https://stackoverflow.com/users/4257791/pushkar" target="_blank" rel="noopener"><i class="fa fa-stack-overflow"></i></a></li>
+             <li><a href="https://www.instagram.com/pushkar.anand/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
            </ul>
          </div>
        </div>
