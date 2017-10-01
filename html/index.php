@@ -1,18 +1,36 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Pushkar Anand - Personal Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life " />
-  <meta name="author" content="Pushkar Anand">
-  <meta property="og:url" content="https://pushkaranand.me"/>
-  <meta property="og:site_name" content="Pushkar Anand - Personal Portfolio"/>
-  <meta property="og:title" content="Pushkar Anand - Personal Portfolio"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://pushkaranand.me/media/me.jpg"/>
-  <meta name="keywords" content="Pushkar Anand, Pushkar, Anand" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- COMMON TAGS -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pushkar Anand - Personal Portfolio</title>
+	<meta name="author" content="Pushkar Anand">
+	<meta name="keywords" content="Pushkar Anand, Pushkar, Anand" />
+  	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Search Engine -->
+	<meta name="description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life ">
+	<meta name="image" content="https://pushkaranand.me/media/me.jpg">
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="Pushkar Anand - Personal Portfolio">
+	<meta itemprop="description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life ">
+	<meta itemprop="image" content="https://pushkaranand.me/media/me.jpg">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Pushkar Anand - Personal Portfolio">
+	<meta name="twitter:description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life ">
+	<meta name="twitter:site" content="Pushkar_Anand_0">
+	<meta name="twitter:creator" content="Pushkar_Anand_0">
+	<meta name="twitter:image:src" content="https://pushkaranand.me/media/me.jpg">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content="Pushkar Anand - Personal Portfolio">
+	<meta name="og:description" content="A programmer trying to create a mark on the world. Currently pursuing his engineering in computer science he wishes to do something exciting in his life ">
+	<meta name="og:image" content="https://pushkaranand.me/media/me.jpg">
+	<meta name="og:url" content="https://pushkaranand.me/">
+	<meta name="og:site_name" content="Pushkar Anand - Personal Portfolio">
+	<meta name="og:locale" content="en_IN">
+	<meta name="fb:admins" content="100002803841254">
+	<meta name="og:type" content="website">
   <link rel="shortcut icon" href="media/favicon.ico">
   <link rel="icon" sizes="16x16 32x32 64x64" href="media/favicon.ico">
   <link rel="icon" type="image/png" sizes="196x196" href="media/favicon-192.png">
