@@ -66,7 +66,7 @@ session_start();
  <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css" />
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous" />
  <!-- Main Style -->
- <link rel="stylesheet" type="text/css" href="css/loadcss.php?css=owl.transitions.css/w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css" />
+ <link rel="stylesheet" type="text/css" href="css/loadcss?css=owl.transitions.css/w3.css/main.css/responsive.css/font-awesome.min.css/animate.css/lightbox.css/owl.carousel.css/owl.theme.default.css/emoji.css" />
  <?php
  if(isset($_SESSION['mail-sent']))
  {
@@ -152,19 +152,19 @@ SCRIPT;
          <div class="large">
            <img src="media/proj1.png" alt="Sofdule">
            <div class="overlay">
-             <a data-fancybox data-type="iframe" data-src="project.php?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
+             <a data-fancybox data-type="iframe" data-src="project?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj2.png" alt="WishThem">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=wishthem" href="javascript:;" ><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project?list=wishthem" href="javascript:;" ><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj3.png" alt="Make me Smile">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
        </div>
@@ -172,18 +172,18 @@ SCRIPT;
          <div class="grid-box large">
            <img src="media/proj4.jpg" alt="">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project?list=" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="grid-box">
            <img src="media/proj5.jpg" alt="">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project.php?list=" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project?list=" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
          <div class="browse-box">
            <div class="more">
-             <a href="projects.php"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+             <a href="project?viewall><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
            </div>
          </div>
        </div>
@@ -461,9 +461,10 @@ SCRIPT;
  <!-- Bootstrap JS -->
  <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js" integrity="sha256-wzoq0P7w2qLzRcJsF319y6G9Oilk3nU5CZ8tnY9TjFI=" crossorigin="anonymous"></script>
- <script src="js/loadjs.php?js=wow.js/main.js/smooth-scroll.js/jasny-bootstrap.min.js/jquery.counterup.min.js/waypoints.min.js" ></script>
+ <script src="js/loadjs?js=wow.js/main.js/smooth-scroll.js/jasny-bootstrap.min.js/jquery.counterup.min.js/waypoints.min.js" ></script>
 <!--<script src="js/owl.carousel.min.js"></script>
 <script src="js/circle-progress.js"></script>-->
+
 <script>
 $(document).keyup(function(e) {
      if (e.keyCode == 27)
