@@ -117,7 +117,7 @@ SCRIPT;
            <ul class="nav navmenu-nav">
              <li class="active"><a href="#header">Home</a></li>
              <li><a href="#works">Portfolio</a></li>
-             <!--<li><a href="#clients">Clients</a></li>-->
+             <li><a href="pushkar-resume.pdf">Resume</a></li>
              <li><a href="blog/">Blog</a></li>
              <li><a href="#feedback">Contact Me</a></li>
            </ul>
