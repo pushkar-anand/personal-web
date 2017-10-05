@@ -177,7 +177,7 @@ SCRIPT;
        </div>
        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
          <div class="grid-box large">
-           <img src="media/proj4.jpg" alt="Matrix Operations">
+           <img src="media/proj4.png" alt="Matrix Operations">
            <div class="overlay">
               <a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
