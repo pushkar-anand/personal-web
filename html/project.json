@@ -28,6 +28,12 @@
         "info": "This gtk application helps you save some important things without having to switch to a different app. Simply start this app and use the icon in the status bar to add and view notes",
         "link": "https://github.com/pushkar-anand/make-a-note",
         "key": "mka"
+      },
+      {
+        "name": "20-20-20-rule",
+        "info": "Reminds you to look every 20 mins away from your computer screen to relax your eyes",
+        "link": "https://github.com/pushkar-anand/20-20-20-rule",
+        "key": "20"
       }
     ]
 }
