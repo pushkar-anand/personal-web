@@ -168,7 +168,7 @@ SCRIPT;
 							<a data-fancybox data-type="iframe" data-src="project?list=mka" href="javascript:;"><i class="fa fa-search"></i></a>
 					 </div>
 				 </div>
-         <div class="grid-box">
+         <div class="grid-box large">
            <img src="media/proj2.png" alt="WishThem">
            <div class="overlay">
               <a data-fancybox data-type="iframe" data-src="project?list=wishthem" href="javascript:;" ><i class="fa fa-search"></i></a>
@@ -176,7 +176,7 @@ SCRIPT;
          </div>
        </div>
        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
-				 <div class="grid-box large">
+				 <div class="grid-box">
 					 <img src="media/proj3.png" alt="Make me Smile">
 					 <div class="overlay">
 							<a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
