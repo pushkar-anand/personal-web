@@ -190,7 +190,7 @@ SCRIPT;
          </div>-->
          <div class="browse-box">
            <div class="more">
-             <a href="project?viewall=true><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+             <a href="project?viewall=true"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
            </div>
          </div>
        </div>
