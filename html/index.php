@@ -177,20 +177,20 @@ SCRIPT;
        </div>
        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
          <div class="grid-box large">
-           <img src="media/proj4.jpg" alt="">
+           <img src="media/proj4.jpg" alt="Matrix Operations">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project?list=" href="javascript:;"><i class="fa fa-search"></i></a>
+              <a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
-         <div class="grid-box">
+         <!--<div class="grid-box">
            <img src="media/proj5.jpg" alt="">
            <div class="overlay">
               <a data-fancybox data-type="iframe" data-src="project?list=" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
-         </div>
+         </div>-->
          <div class="browse-box">
            <div class="more">
-             <a href="project?viewall><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+             <a href="project?viewall=true><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
            </div>
          </div>
        </div>

@@ -3,16 +3,25 @@
     [
       {
         "name": "Sofdule",
-         "info":"Doe"
+         "info":"Doe",
+         "key": "sofdule"
       },
       {
         "name": "Make Me Smile",
-        "info": ""
+        "info": "I designed the app Make me smile for my friend. For now it's only half done as I am thinking of new features to add. This app allows us to see each other's location has a personal chat for us to communicate securely. And has a list of pics that we considered to our best memories. I had designed this to gift her on her birthday. This app is also password protected to prevent others from seeing our memories and chats.",
+        "key": "mkss"
       },
       {
         "name": "WishThem",
-        "info": "",
-        "link": "https://wishthem.herokuapp.com"
+        "info": "Embarrassed because you forgot to wish your friend. Never forget to wish your friend again. Just tell us your friend's birthdays, anniversaries etc. a few more details and leave the rest to us.",
+        "link": "https://wishthem.herokuapp.com",
+        "key": "wishthem"
+      },
+      {
+        "name": "Matrix Operations",
+        "info": "This app does all sorts of matrix operations like addition, subtraction, multiplication, finding inverse, determinant, adjoint, range and eigenvalues & vectors. You can also use it to find solutions of equations using different methods. This app displays step by step solution to all problems.",
+        "link": "",
+        "key": "mo"
       }
     ]
 }
