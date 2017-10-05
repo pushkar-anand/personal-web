@@ -1,5 +1,6 @@
 <?php
 session_start();
+session_regenerate_id();
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -89,7 +90,6 @@ session_start();
  	</script>
 SCRIPT;
  }
- session_regenerate_id();
  session_unset('mail-sent');
  ?>
  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -162,7 +162,7 @@ SCRIPT;
              <a data-fancybox data-type="iframe" data-src="project?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
-				 <div class="grid-box">
+				 <div class="grid-box large">
 					 <img src="media/proj3.png" alt="Make me Smile">
 					 <div class="overlay">
 							<a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
