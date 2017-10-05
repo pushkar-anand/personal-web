@@ -322,15 +322,20 @@ SCRIPT;
   <div class="row">
     <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay=".4s">
       <h3>VVCE, Mysore</h3>
-      <p></p>
+      <p>B.E, CSE</p>
+			<p>Grad. 2021</p>
     </div>
     <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay=".4s">
       <h3>Paramount International School,New Delhi</h3>
-      <p></p>
+      <p>Senior secondary(12th)</p>
+			<p>2016</p>
+			<p>%age: 80.6</p>
     </div>
     <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay=".4s">
       <h3>Creane Memorial School , Gaya</h3>
-      <p></p>
+      <p>High School(10th)</p>
+			<p>2014></p>
+			<p>CGPA: 8.6 </p>
     </div>
   </div>
 </div>
