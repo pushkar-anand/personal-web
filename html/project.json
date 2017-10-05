@@ -22,6 +22,12 @@
         "info": "This app does all sorts of matrix operations like addition, subtraction, multiplication, finding inverse, determinant, adjoint, range and eigenvalues & vectors. You can also use it to find solutions of equations using different methods. This app displays step by step solution to all problems.",
         "link": "",
         "key": "mo"
+      },
+      {
+        "name": "Make A Note",
+        "info": "This gtk application helps you save some important things without having to switch to a different app. Simply start this app and use the icon in the status bar to add and view notes",
+        "link": "https://github.com/pushkar-anand/make-a-note",
+        "key": "mka"
       }
     ]
 }
