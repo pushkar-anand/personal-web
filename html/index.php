@@ -162,10 +162,10 @@ SCRIPT;
              <a data-fancybox data-type="iframe" data-src="project?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
            </div>
          </div>
-				 <div class="grid-box large">
-					 <img src="media/proj4.png" alt="Matrix Operations">
+				 <div class="grid-box">
+					 <img src="media/proj5.png" alt="Make A Note">
 					 <div class="overlay">
-							<a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
+							<a data-fancybox data-type="iframe" data-src="project?list=mka" href="javascript:;"><i class="fa fa-search"></i></a>
 					 </div>
 				 </div>
          <div class="grid-box">
@@ -182,12 +182,13 @@ SCRIPT;
 							<a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
 					 </div>
 				 </div>
-         <div class="grid-box">
-           <img src="media/proj5.png" alt="Make A Note">
-           <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project?list=mka" href="javascript:;"><i class="fa fa-search"></i></a>
-           </div>
-         </div>
+				 <div class="grid-box large">
+					 <img src="media/proj4.png" alt="Matrix Operations">
+					 <div class="overlay">
+							<a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
+					 </div>
+				 </div>
+
          <div class="browse-box">
            <div class="more">
              <a href="project?viewall=true"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
