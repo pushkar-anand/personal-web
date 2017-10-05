@@ -163,9 +163,9 @@ SCRIPT;
            </div>
          </div>
 				 <div class="grid-box large">
-					 <img src="media/proj3.png" alt="Make me Smile">
+					 <img src="media/proj4.png" alt="Matrix Operations">
 					 <div class="overlay">
-							<a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
+							<a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
 					 </div>
 				 </div>
          <div class="grid-box">
@@ -176,12 +176,12 @@ SCRIPT;
          </div>
        </div>
        <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
-         <div class="grid-box large">
-           <img src="media/proj4.png" alt="Matrix Operations">
-           <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
-           </div>
-         </div>
+				 <div class="grid-box large">
+					 <img src="media/proj3.png" alt="Make me Smile">
+					 <div class="overlay">
+							<a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
+					 </div>
+				 </div>
          <div class="grid-box">
            <img src="media/proj5.png" alt="Make A Note">
            <div class="overlay">
