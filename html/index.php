@@ -207,7 +207,6 @@ SCRIPT;
        <h3>Javascript</h3>
        <h3>jQuery</h3>
        <h3>PHP</h3>
-       <h3>CodeIgniter</h3>
        <h3>MySQL</h3>
        <h3>PostgreSQL</h3>
        <h3></h3>
