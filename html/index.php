@@ -353,6 +353,17 @@ $xpath = new DOMXPath($doc);
 $titles = $xpath->query("//article/header/h2/a");
 $hrefs = $xpath->query("//article/header/h2/a/@href");
 $posts = $xpath->query("//article/div/p");
+
+$i=0;
+foreach ($titles as $x)
+{
+  $title[] = $x->nodeValue;
+  $href[] = $hrefs[$i]->nodeValue;
+  $post[] =  $posts->item($i)->nodeValue;
+
+  //echo "Title: ".$title[$i]." link: ".$href[$i]." Summary: ".$post[$i]."\n";
+  $i++;
+}
 ?>
  <section id="blog">
    <div class="container">
@@ -362,26 +373,22 @@ $posts = $xpath->query("//article/div/p");
          <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
            <img src="assets/img/blog/img1.jpg" alt="">
            <div class="large">
-             <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>
-             <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>
+             <a class="title" href="blog/">A CODER'S WORDS </a>
+             <p>Learning and Sharing</p>
            </div>
          </div>
        </div>
        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">
-         <div class="blog-item">
-           <img src="assets/img/blog/img2.jpg" alt="">
-           <div class="content">
-             <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>
-             <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>
-           </div>
-         </div>
-         <div class="blog-item">
-           <img src="assets/img/blog/img3.jpg" alt="">
-           <div class="content">
-             <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>
-             <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>
-           </div>
-         </div>
+				 <?php
+				 for($i=0; $i<2; $i++)
+				 {
+					 echo '<div class="blog-item">
+					            <img src="assets/img/blog/img2.jpg" alt="" />
+					            <div class="content">
+					              <a class="title" href="'.$href[0].'">'.$title[0].'</a>
+					              <p>'.$post[0].'<p></div></div>';
+				 }
+				 ?>
        </div>
        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.8s">
          <div class="blog-item">
