@@ -343,7 +343,18 @@ SCRIPT;
 
 
  <!-- Blog Section Start -->
- <!--<section id="blog">
+<?php
+$doc = new DOMDocument();
+$htmlData = file_get_contents("https://pushkaranand.me/blog/");
+@$doc->loadHTML($htmlData);
+
+$xpath = new DOMXPath($doc);
+
+$titles = $xpath->query("//article/header/h2/a");
+$hrefs = $xpath->query("//article/header/h2/a/@href");
+$posts = $xpath->query("//article/div/p");
+?>
+ <section id="blog">
    <div class="container">
      <div class="row">
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>
@@ -390,7 +401,7 @@ SCRIPT;
        </div>
      </div>
    </div>
- </section>-->
+ </section>
  <!-- Blog Section End -->
 
  <!-- Feedback Section Start -->
