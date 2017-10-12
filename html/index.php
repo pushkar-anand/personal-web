@@ -353,6 +353,8 @@ $xpath = new DOMXPath($doc);
 $titles = $xpath->query("//article/header/h2/a");
 $hrefs = $xpath->query("//article/header/h2/a/@href");
 $posts = $xpath->query("//article/div/p");
+$length = $titles->length;
+$length = ($length>2)?2:$length;
 
 $i=0;
 foreach ($titles as $x)
@@ -380,31 +382,15 @@ foreach ($titles as $x)
        </div>
        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">
 				 <?php
-				 for($i=0; $i<2; $i++)
+				 for($i=0; $i<$length; $i++)
 				 {
-					 echo '<div class="blog-item">
+					 echo '<a class="title" href="blog/'.$href[$i].'"><div class="blog-item">
 					            <img src="assets/img/blog/img2.jpg" alt="" />
 					            <div class="content">
-					              <a class="title" href="'.$href[0].'">'.$title[0].'</a>
-					              <p>'.$post[0].'<p></div></div>';
+					              '.$title[$i].'
+					              <p>'.$post[$i].'<p></div></div></a>';
 				 }
 				 ?>
-       </div>
-       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.8s">
-         <div class="blog-item">
-           <img src="assets/img/blog/img3.jpg" alt="">
-           <div class="content">
-             <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>
-             <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>
-           </div>
-         </div>
-         <div class="blog-item">
-           <img src="assets/img/blog/img2.jpg" alt="">
-           <div class="content">
-             <a class="title" href="#">This is Photoshop's vers ion  of Lorem Ipsum. Pro in gravida </a>
-             <p>Nibh vel velit auc tor aliq uet. Aenean sollicitu din, lorem quis biben...</p>
-           </div>
-         </div>
        </div>
      </div>
    </div>

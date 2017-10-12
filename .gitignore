@@ -3,3 +3,4 @@ blog/*
 html/blog/*
 pweb_backup/*
 *.log
+*.s
