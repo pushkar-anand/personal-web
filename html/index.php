@@ -380,7 +380,7 @@ foreach ($titles as $x)
            </div>
          </div>
        </div>
-       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight animated" data-wow-delay="1.6s">
+       <div class="wow fadeInRight animated" data-wow-delay="1.6s">
 				 <?php
 				 for($i=0; $i<$length; $i++)
 				 {
