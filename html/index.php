@@ -371,7 +371,7 @@ foreach ($titles as $x)
    <div class="container">
      <div class="row">
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>
-       <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+       <!--<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
          <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
            <img src="assets/img/blog/img1.jpg" alt="">
            <div class="large">
@@ -379,7 +379,7 @@ foreach ($titles as $x)
              <p>Learning and Sharing</p>
            </div>
          </div>
-       </div>
+       </div>-->
        <div class="wow fadeInRight animated" data-wow-delay="1.6s">
 				 <?php
 				 for($i=0; $i<$length; $i++)
