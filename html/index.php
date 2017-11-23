@@ -209,7 +209,7 @@ SCRIPT;
        <h3>PHP</h3>
        <h3>MySQL</h3>
        <h3>PostgreSQL</h3>
-       <h3></h3>
+       <h3>MongoDB</h3>
      </div>
      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
           <h3>Linux CLI</h3>
@@ -230,7 +230,7 @@ SCRIPT;
        <h3>C/C++</h3>
        <h3>Java</h3>
        <h3>Python</h3>
-			 <h3>JSON</h3>
+       <h3>JSON</h3>
      </div>
      </div>
    </div>
@@ -367,7 +367,7 @@ foreach ($titles as $x)
   $i++;
 }
 ?>
- <section id="blog">
+ <hr /><section id="blog">
    <div class="container">
      <div class="row">
        <h1 class="section-title wow fadeInRight animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>
