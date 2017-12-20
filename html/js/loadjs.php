@@ -21,7 +21,7 @@ if( isset($_GET['js']))
 	{
 		if(!file_exists($jsFile))
 		{
-			error_log("not found: " $jsFile);
+			error_log("not found: ".$jsFile);
 			header("HTTP/1.0 404 Not Found");
 			exit();
 		}
