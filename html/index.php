@@ -368,7 +368,7 @@ foreach ($titles as $x)
 }
 ?>
  <hr /><section id="blog">
-   <div class="container">
+   <div class="container" style="visiblity:none">
      <div class="row">
        <h1 class="section-title wow fadeInRight animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>
        <!--<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
