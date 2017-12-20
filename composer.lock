@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "17ce4974dd2bdf1a47cfe78f554f8c32",
     "content-hash": "b43fb726e6db8ec55368a8b13e0bbfc6",
     "packages": [
         {
             "name": "mailin-api/mailin-api-php",
-            "version": "v1.0.4",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mailin-api/mailin-api-php.git",
-                "reference": "53297cf3322e7a47583efb1e2e2672757c117d51"
+                "reference": "b437808566f46979309f01b796c31b7b6bacfb42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mailin-api/mailin-api-php/zipball/53297cf3322e7a47583efb1e2e2672757c117d51",
-                "reference": "53297cf3322e7a47583efb1e2e2672757c117d51",
+                "url": "https://api.github.com/repos/mailin-api/mailin-api-php/zipball/b437808566f46979309f01b796c31b7b6bacfb42",
+                "reference": "b437808566f46979309f01b796c31b7b6bacfb42",
                 "shasum": ""
             },
             "require": {
+                "ext-curl": "*",
                 "php": ">=5.3"
             },
             "type": "library",
@@ -47,7 +47,7 @@
             ],
             "description": "Official SendinBlue provided API V2 wrapper",
             "homepage": "https://github.com/mailin-api/mailin-api-php",
-            "time": "2016-06-30 06:39:26"
+            "time": "2017-04-19T13:00:21+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -107,7 +107,7 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2017-12-06 12:46:42"
+            "time": "2017-12-06T12:46:42+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -156,7 +156,7 @@
                 "paths",
                 "relative"
             ],
-            "time": "2017-01-26 08:54:49"
+            "time": "2017-01-26T08:54:49+00:00"
         }
     ],
     "packages-dev": [],

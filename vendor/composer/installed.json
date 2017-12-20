@@ -23,7 +23,7 @@
         },
         "time": "2017-01-26T08:54:49+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "MatthiasMullie\\PathConverter\\": "src/"
@@ -84,7 +84,7 @@
             "bin/minifyjs"
         ],
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "MatthiasMullie\\Minify\\": "src/"
@@ -114,30 +114,31 @@
     },
     {
         "name": "mailin-api/mailin-api-php",
-        "version": "v1.0.4",
-        "version_normalized": "1.0.4.0",
+        "version": "v1.0.7",
+        "version_normalized": "1.0.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/mailin-api/mailin-api-php.git",
-            "reference": "53297cf3322e7a47583efb1e2e2672757c117d51"
+            "reference": "b437808566f46979309f01b796c31b7b6bacfb42"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mailin-api/mailin-api-php/zipball/53297cf3322e7a47583efb1e2e2672757c117d51",
-            "reference": "53297cf3322e7a47583efb1e2e2672757c117d51",
+            "url": "https://api.github.com/repos/mailin-api/mailin-api-php/zipball/b437808566f46979309f01b796c31b7b6bacfb42",
+            "reference": "b437808566f46979309f01b796c31b7b6bacfb42",
             "shasum": ""
         },
         "require": {
+            "ext-curl": "*",
             "php": ">=5.3"
         },
-        "time": "2016-06-30T06:39:26+00:00",
+        "time": "2017-04-19T13:00:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "1.0.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-0": {
                 "Sendinblue": "src/"
