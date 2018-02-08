@@ -367,10 +367,11 @@ foreach ($titles as $x)
   $i++;
 }
 ?>
+  <!--
  <hr /><section id="blog">
    <div class="container" style="visiblity:none">
      <div class="row">
-       <h1 class="section-title wow fadeInRight animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>
+       <h1 class="section-title wow fadeInRight animated" data-wow-delay=".6s">My<br><span>Blog</span></h1>-->
        <!--<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
          <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
            <img src="assets/img/blog/img1.jpg" alt="">
@@ -380,7 +381,7 @@ foreach ($titles as $x)
            </div>
          </div>
        </div>-->
-       <div class="wow fadeInLeft animated" data-wow-delay="1.6s">
+  <!--<div class="wow fadeInLeft animated" data-wow-delay="1.6s">
 				 <?php
 				 for($i=0; $i<$length; $i++)
 				 {
@@ -394,7 +395,7 @@ foreach ($titles as $x)
        </div>
      </div>
    </div>
- </section>
+ </section>-->
  <!-- Blog Section End -->
 
  <!-- Feedback Section Start -->
@@ -481,14 +482,10 @@ foreach ($titles as $x)
 
 <script>
 $(document).keyup(function(e) {
-     if (e.keyCode == 27)
-     { // escape key maps to keycode `27`
-        // <DO YOUR WORK HERE>
+    if (e.keyCode === 27) {
         parent.jQuery.fancybox.getInstance().close();
     }
 });
 </script>
-</body>
-</html>
 </body>
 </html>
