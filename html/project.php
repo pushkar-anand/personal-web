@@ -55,7 +55,6 @@ foreach ($jsonArr["Projects"] as $key => $value)
   {
     echo "Link: ".$value["link"]."<br/>" ;
   }
-  echo "Key: ".$value["key"]."<br/>";
   echo "<br/><br/><br/><br/>";;
 }
 ?>

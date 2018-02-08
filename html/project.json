@@ -40,6 +40,13 @@
         "link": "https://github.com/pushkar-anand/20-20-20-rule",
         "image": "media/projects/20.png",
         "key": "20"
+      },
+      {
+        "name": "Simple Budget",
+        "info": "Easily manage all your money. Track your spends and earnings. Tag you transactions. Add transaction specific notes.",
+        "link": "https://github.com/pushkar-anand/simple-budget",
+        "image": "media/projects/proj4.png",
+        "key": "20"
       }
     ]
 }

@@ -147,44 +147,51 @@ SCRIPT;
  <section id="works">
    <div class="container">
      <div class="row">
-       <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
-       <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
+         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">Some of <br>My <br><span>Works</span>
+         </h1>
+         <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="0.7s">
          <div class="large">
            <img src="media/proj1.png" alt="Sofdule">
            <div class="overlay">
-             <a data-fancybox data-type="iframe" data-src="project?list=sofdule" href="javascript:;"><i class="fa fa-search"></i></a>
+               <a data-fancybox data-type="iframe" data-src="project?list=sofdule" href="javascript:"><i
+                           class="fa fa-search"></i></a>
            </div>
          </div>
 				 <div class="grid-box">
 					 <img src="media/proj5.png" alt="Make A Note">
 					 <div class="overlay">
-							<a data-fancybox data-type="iframe" data-src="project?list=mka" href="javascript:;"><i class="fa fa-search"></i></a>
+                         <a data-fancybox data-type="iframe" data-src="project?list=mka" href="javascript:"><i
+                                     class="fa fa-search"></i></a>
 					 </div>
 				 </div>
          <div class="large">
            <img src="media/proj2.png" alt="WishThem">
            <div class="overlay">
-              <a data-fancybox data-type="iframe" data-src="project?list=wishthem" href="javascript:;" ><i class="fa fa-search"></i></a>
+               <a data-fancybox data-type="iframe" data-src="project?list=wishthem" href="javascript:"><i
+                           class="fa fa-search"></i></a>
            </div>
          </div>
 				 <div class="grid-box">
 					 <img src="media/proj6.png" alt="20-20-rule">
 					 <div class="overlay">
-							<a data-fancybox data-type="iframe" data-src="project?list=20" href="javascript:;"><i class="fa fa-search"></i></a>
+                         <a data-fancybox data-type="iframe" data-src="project?list=20" href="javascript:"><i
+                                     class="fa fa-search"></i></a>
 					 </div>
 				 </div>
        </div>
-       <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
+         <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="0.8s">
 				 <div class="grid-box">
 					 <img src="media/proj3.png" alt="Make me Smile">
 					 <div class="overlay">
-							<a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:;"><i class="fa fa-search"></i></a>
+                         <a data-fancybox data-type="iframe" data-src="project?list=mkss" href="javascript:"><i
+                                     class="fa fa-search"></i></a>
 					 </div>
 				 </div>
 				 <div class="grid-box large">
-					 <img src="media/proj4.png" alt="Matrix Operations">
+                     <img src="media/proj4.png" alt="Simple Budget">
 					 <div class="overlay">
-							<a data-fancybox data-type="iframe" data-src="project?list=mo" href="javascript:;"><i class="fa fa-search"></i></a>
+                         <a data-fancybox data-type="iframe" data-src="project?list=sb" href="javascript:"><i
+                                     class="fa fa-search"></i></a>
 					 </div>
 				 </div>
 
@@ -202,8 +209,9 @@ SCRIPT;
  <section id="skills">
    <div class="container">
      <div class="row">
-     <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
-     <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".4s">My<br>Passionate<br> <span>Skills</span>
+         </h1>
+         <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.0s">
        <h3>Javascript</h3>
        <h3>jQuery</h3>
        <h3>PHP</h3>
@@ -211,22 +219,20 @@ SCRIPT;
        <h3>PostgreSQL</h3>
        <h3>MongoDB</h3>
      </div>
-     <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+         <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.7s">
           <h3>Linux CLI</h3>
-          <h3>AWS EC2</h3>
-          <h3>AWS LightSail</h3>
-          <h3>AWS Route53</h3>
+             <h3>AWS </h3>
           <h3>Heroku</h3>
-          <h3>Azure VMs</h3>
+             <h3>Apache web server</h3>
      </div>
-     <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+         <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.7s">
           <h3>Backend Development</h3>
           <h3>Android Development</h3>
-          <h3>Windows App</h3>
+             <h3>Gtk Applications</h3>
           <h3>RESTful Apis</h3>
           <h3>Git</h3>
      </div>
-     <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+         <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="0.7s">
        <h3>C/C++</h3>
        <h3>Java</h3>
        <h3>Python</h3>
@@ -480,7 +486,8 @@ foreach ($titles as $x)
 <!--<script src="js/owl.carousel.min.js"></script>
 <script src="js/circle-progress.js"></script>-->
 
-<script>
+  <!--suppress JSUnresolvedFunction -->
+  <script>
 $(document).keyup(function(e) {
     if (e.keyCode === 27) {
         parent.jQuery.fancybox.getInstance().close();
