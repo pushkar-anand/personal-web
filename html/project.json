@@ -3,7 +3,7 @@
     [
       {
         "name": "Sofdule",
-         "info":"Doe",
+        "info": "",
          "image": "media/projects/sofdule.png",
          "key": "sofdule"
       },
@@ -44,7 +44,7 @@
       {
         "name": "Simple Budget",
         "info": "Easily manage all your money. Track your spends and earnings. Tag you transactions. Add transaction specific notes.",
-        "link": "https://github.com/pushkar-anand/simple-budget",
+        "link": "https://play.google.com/store/apps/details?id=me.pushkaranand.simplebudget",
         "image": "media/projects/simple-budget.png",
         "key": "sb"
       }

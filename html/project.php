@@ -95,7 +95,7 @@ if (isset($_GET['list'])) {
             <![endif]-->
             <style>
                 body {
-                    background-color: #4abcff;
+                    background-color: #ff5722;
                 }
                 .data {
                     display: grid;
