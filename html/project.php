@@ -93,12 +93,19 @@ if (isset($_GET['list'])) {
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
             <![endif]-->
+            <style>
+                .data {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr; /* fraction*/
+                }
+            </style>
         </head>
         <body>
         <h1 style="text-align: center"> <?php echo $projectName; ?> </h1>
-        <div style="height: auto;">
-            <h3><img src="<?php echo $projectImage; ?>" style="max-width: 500px;"/>
-                <?php echo $projectInfo ?></h3>
+        <div style="height: auto;" class="data">
+            <div><img src="<?php echo $projectImage; ?>" style="max-width: 500px;"/></div>
+            <div><h3> <?php echo $projectInfo ?></h3></div>
+        </div>
         <?php
         if ($linkExists) {
             ?>
@@ -106,7 +113,6 @@ if (isset($_GET['list'])) {
             <?php
         }
         ?>
-        </div>
         </body>
         </html>
 
