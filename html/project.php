@@ -96,7 +96,8 @@ if (isset($_GET['list'])) {
         </head>
         <body>
         <h1 style="text-align: center"> <?php echo $projectName; ?> </h1>
-        <img src="<?php echo $projectImage; ?>" style="max-width: 500px;vertical-align:middle;"/>
+        <div>
+            <img src="<?php echo $projectImage; ?>" style="max-width: 500px;"/>
         <h3><?php echo $projectInfo ?></h3>
         <?php
         if ($linkExists) {
@@ -105,6 +106,7 @@ if (isset($_GET['list'])) {
             <?php
         }
         ?>
+        </div>
         </body>
         </html>
 
