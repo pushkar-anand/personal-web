@@ -35,11 +35,6 @@ if (isset($_GET['list'])) {
                 $linkExists = true;
                 $projectLink = $value["link"];
             }
-            echo "Name: " . $projectName . "<br/>";
-            echo "Info: " . $projectInfo . "<br/>";
-            if ($linkExists) {
-                echo "Link: " . $projectLink . "<br/>";
-            }
             break;
         }
     }
@@ -103,7 +98,13 @@ if (isset($_GET['list'])) {
         <h1> <?php echo $projectName; ?> </h1>
         <img src="<?php echo $projectImage; ?>"/>
         <h3><?php echo $projectInfo ?></h3>
-        <a href="<?php echo $projectLink ?>">See project</a>
+        <?php
+        if ($linkExists) {
+            ?>
+            <a href="<?php echo $projectLink ?>">See project</a>
+            <?php
+        }
+        ?>
         </body>
         </html>
 
