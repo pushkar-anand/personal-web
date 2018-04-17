@@ -253,7 +253,7 @@ SCRIPT;
 </section>
 <!-- Skills Section End -->
 <!-- Work Experience Section Start -->
-<!-- <section id="testimonial">
+<section id="testimonial">
    <div class="container">
      <div class="row">
        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Where<br>have <br><span>I worked</span></h1>
@@ -326,7 +326,7 @@ SCRIPT;
        </div>
      </div>
    </div>
- </section>-->
+</section>
 <!-- Testimonial Section End -->
 <!-- Clients Section Start -->
 <section id="clients">
