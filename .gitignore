@@ -5,3 +5,4 @@ pweb_backup/*
 *.log
 *.s
 .idea/
+*.config.php
