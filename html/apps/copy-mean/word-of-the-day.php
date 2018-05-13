@@ -6,10 +6,11 @@ $user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 
 $todays_date = date("d-m-y");
 $filename = $todays_date.'.html';
+$file_full_path = __DIR__.'/'.$filename;
 
-if(!file_exists($filename))
+if(!file_exists($file_full_path))
 {
-	error_log("$filename does not exists\n") ;
+	error_log("$file_full_path does not exists\n") ;
 
 	$options = array(
   'http'=>array(
@@ -22,7 +23,7 @@ if(!file_exists($filename))
 	$context = stream_context_create($options);
 	$html = file_get_contents($url, false, $context);
 
-	$file = fopen($filename, "w");
+	$file = fopen($file_full_path, "w");
 	fwrite($file, $html);
 	fclose($file);
 
@@ -35,8 +36,8 @@ if(!file_exists($filename))
 }
 else
 {
-	error_log("$filename exists\n");
-	$html = file_get_contents($filename);
+	error_log("$file_full_path exists\n");
+	$html = file_get_contents($file_full_path);
 }
 
 $doc = new DomDocument();
