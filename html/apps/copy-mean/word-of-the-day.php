@@ -62,14 +62,14 @@ if (!entry_exists($todays_date)) {
     var_dump($example[0]->nodeValue);*/
 
 
-    $word = $word[0]->nodeValue;
+    $word = htmlentities($word[0]->nodeValue);
 
     //$meaning = $defination[0]->nodeValue;
 
     $meanArr = array();
     foreach ($defination as $node) {
         if ($node->nodeName == 'p') {
-            array_push($meanArr, $node->nodeValue);
+            array_push($meanArr, htmlentities($node->nodeValue));
         }
     }
 
@@ -77,7 +77,7 @@ if (!entry_exists($todays_date)) {
     $meaning = json_encode($arr);
 
 
-    $example = $example[0]->nodeValue;
+    $example = htmlentities($example[0]->nodeValue);
 
     $insertQuery = "INSERT INTO copy_mean_daily_word (word, meaning, example, php_date) VALUES (?, ?, ?, ?)";
     $stmt = $conn->prepare($insertQuery);
@@ -105,5 +105,3 @@ if (!entry_exists($todays_date)) {
 $output = array('word' => $word, 'meaning' => $meanArr, 'example' => $example);
 $outputJSON = json_encode($output);
 echo $outputJSON;
-?>
-
